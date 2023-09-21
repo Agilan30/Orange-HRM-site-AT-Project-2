@@ -67,7 +67,7 @@ public class PIMTestRunner extends Setup {
         String lastname = faker.name().lastName();
         int empId = Utils.generateRandomNumber(10000, 99999);
         String employeeId = String.valueOf(empId);
-        String password = "Siddik@234";
+        String password = "Agilan@123";
         Thread.sleep(1500);
         pimPage.createEmployeeWithoutUsername(firstname, lastname, employeeId, password);
 
@@ -87,8 +87,8 @@ public class PIMTestRunner extends Setup {
         String lastname = faker.name().lastName();
         int empId = Utils.generateRandomNumber(10000, 99999);
         String employeeId = String.valueOf(empId);
-        String username = "Siddik" + Utils.generateRandomNumber(1000, 9999);
-        String password = "Siddik@234";
+        String username = "Agilan3001" + Utils.generateRandomNumber(1000, 9999);
+        String password = "Agilan@123";
         Thread.sleep(1500);
         pimPage.createEmployee(firstname, lastname, employeeId, username, password);
 
@@ -111,8 +111,8 @@ public class PIMTestRunner extends Setup {
         String lastname = faker.name().lastName();
         int empId = Utils.generateRandomNumber(10000, 99999);
         String employeeId = String.valueOf(empId);
-        String username = "Siddik" + Utils.generateRandomNumber(1000, 9999);
-        String password = "Siddik@234";
+        String username = "Hema2000" + Utils.generateRandomNumber(1000, 9999);
+        String password = "Hema@456";
         Thread.sleep(1500);
         pimPage.createEmployee(firstname, lastname, employeeId, username, password);
 
