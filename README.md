@@ -31,36 +31,23 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 ## Scenerio:
 
 - Login to orange hrm demo site: https://opensource-demo.orangehrmlive.com/
-- Create 2 new employees and save it to a JSON list
-- Now go to PIM dashboard and search by 1st user name. Assert that the user is found.
-- Now click on the user from the search table and update id by random userid
-- Now again search the user by new user id from the PIM dashboard menu and assert that the user is found
+- Reset Password through Forgot Password Link.
+- Now validate the title of the Admin page as "OrangeHRM"
+- Then validate if the options - User Management, Job, Organization, Qualifications, Nationalities, Corporate Banking, Configurations are displayed on the header of the web page.
+- Then validate the Main Menu of the Orange HRM site.
+- Check if all the options - Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard, Directory, Maintenance, Buzz are displayed.
 - Now logout from admin and login with the 2nd user from your JSON list
-- Now click on My Info menu
-- Select Gender and Blood Type and save it
-- Click on contact details and input address and email
-- Logout the user
+
 
 ## Test case check list based on the Scenerio:
 
 - Admin Login with Invalid credential. 
-- Admin Login with valid credential.
-- Create employee without username.
-- Create first employee.
-- create second employee.
-- Search existing employee with invalid name.
-- Search employee with valid name.
-- Update employee Id by random Id.
-- Search employee again with updated employee id.
-- Logout Admin.
-- Login second user with valid credential. 
-- Insert the second user's Gender, Blood, Address and email. 
-- Logout second user. 
-
-## Allure Report:
-
-
-![Screenshot (19)](https://user-images.githubusercontent.com/123433625/221358386-bf9ff279-6e43-4a83-aeb2-e1af0f41147a.png)
+- Forgot Password Validation.
+- Reset Password Link.
+- New Password validation
+- Admin Page title validation.
+- Header validation of web page.
+- Main Menu validation.
 
 
 ![A2](https://user-images.githubusercontent.com/123433625/221358808-8c67c1a2-769e-4ed4-b0a2-0f49e2b8e7a1.jpg)
