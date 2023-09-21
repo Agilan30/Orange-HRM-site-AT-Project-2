@@ -36,7 +36,7 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 - Then validate if the options - User Management, Job, Organization, Qualifications, Nationalities, Corporate Banking, Configurations are displayed on the header of the web page.
 - Then validate the Main Menu of the Orange HRM site.
 - Check if all the options - Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard, Directory, Maintenance, Buzz are displayed.
-- Now logout from admin and login with the 2nd user from your JSON list
+
 
 
 ## Test case check list based on the Scenerio:
@@ -49,8 +49,6 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 - Header validation of web page.
 - Main Menu validation.
 
-
-![A2](https://user-images.githubusercontent.com/123433625/221358808-8c67c1a2-769e-4ed4-b0a2-0f49e2b8e7a1.jpg)
 
 
 
