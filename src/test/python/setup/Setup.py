@@ -18,14 +18,7 @@ class Setup:
         self.driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
     def close_driver(self):
-        # You may need to modify the locator strategy based on the HTML structure of the page
-        # For example, using class name: By.CLASS_NAME, 'class-name'
-        # Using ID: By.ID, 'element-id'
-        # Using CSS selector: By.CSS_SELECTOR, 'css-selector'
-        # Using XPath: By.XPATH, 'xpath'
-        # Example usage: WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'element-id')))
-        # Replace 'element-id' with the appropriate ID of the element you want to wait for
-        # You can also use other expected_conditions methods for different conditions
+        
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'element-id')))
         dashboard_page = DashboardPage(self.driver)
         # Call the logout method from DashboardPage class
