@@ -1,4 +1,4 @@
-# Web Automation on OrangeHRM Website with Python
+# Web Automation on OrangeHRM Website with Python, Selenium, PyTest
 
 ## PFA the Test cases scenarios 
 https://github.com/Agilan30/AT-Project---Orange-HRM-3.0/blob/main/AT%20Project%202.xlsx
